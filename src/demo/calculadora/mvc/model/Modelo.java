@@ -7,8 +7,7 @@ package demo.calculadora.mvc.model;
 public class Modelo {
 
     public Integer sumar(Integer a, Integer b) {
-        String meme = String.valueOf(a).concat(String.valueOf(b));
-        return Integer.parseInt(meme);
+        return a + b;
     }
 
     public Integer restar(Integer a, Integer b) {
